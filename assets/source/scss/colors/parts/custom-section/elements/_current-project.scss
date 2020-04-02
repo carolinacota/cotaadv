@@ -1,0 +1,34 @@
+/*
+ * elements: current-project.scss
+ * -----------------------------------------------
+*/
+
+.project-style1 .title-holder:before{
+    background: $theme-color2;
+}
+.service-style1 .item-thumb:after{
+	background: rgba($theme-color2,.70%); 
+}
+.service-style2 .inner-box .thumb:before{
+	background: $theme-color2;
+}
+.news .date {
+    background: $theme-color2;
+}
+.news .date:before {
+    background: $theme-color2;
+}
+
+.tm-sc-pricing-table {
+	&.pricing-table-style1 {
+		.pricing-table-inner {
+			.pricing-table-head {
+				background-color: $theme-color2;
+				&:after {
+					border-top-color: $theme-color2;
+				}
+			}
+		}
+	}
+}
+
