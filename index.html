@@ -37,6 +37,8 @@
 <!-- CSS | Responsive media queries -->
 <link href="assets/dist/css/responsive.css" rel="stylesheet" type="text/css">
 <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+
 
 <!-- CSS | Theme Color -->
 <link href="assets/dist/css/colors/theme-skin-color-set1.css" rel="stylesheet" type="text/css">
@@ -82,13 +84,15 @@
                     </a>
                   </div>
                   <div class="col-sm-auto ml-auto pr-0 align-self-center">
-                    <nav id="top-primary-nav" class="menuzord blue" data-effect="fade" data-animation="none" data-align="right">
+                    <nav id="top-primary-nav" class="menuzord green" data-effect="fade" data-animation="none" data-align="right">
                       <ul id="main-nav" class="menuzord-menu">
-                        <li><a href="#">Fernando Cota</a></li>
-                        <li><a href="#">Atuação</a></li>
-                        <li class=""><a href="#livros">Publicações</a></li>
-                        <li><a href="#">Depoimento de Clientes</a></li>
-                        <li><a href="page-contact.html">Contato</a></li>
+                        <li><a href="#about">Fernando Cota</a></li>
+                        <li><a href="#practice-areas">Atuação</a></li>
+                        <li class=""><a href="#books">Publicações</a></li>
+                        <li><a href="#clients">Clientes</a></li>
+                        <li><a href="#mission">Missão</a></li>
+                        <li><a href="#contact-form">Contato</a></li>
+                        <!-- <li><a href="page-contact.html">Contato</a></li> -->
                       </ul>
                     </nav>
                   </div>
@@ -160,28 +164,6 @@
                       style="z-index:15;font-family:Rubik;"
                       >Advocacia e Consultoria Jurídica<span class="text-theme-colored1"></span>
                     </rs-layer>
-
-                    <!-- BUTTON layer 1 / Button layer 2 and 3 deleted -->
-
-<!--                     <rs-layer
-                      id="slider-1-slide-1-layer-9"
-                      class="rev-btn btn-theme-colored2"
-                      data-type="button"
-                      data-color="#252628"
-                      data-rsp_ch="on"
-                      data-xy="xo:30px,30px,30px,20px;y:m;yo:213px,196px,114px,86px;"
-                      data-text="w:normal;s:16,13,12,10;l:50,41,42,35;fw:500;a:center;"
-                      data-dim="w:147px,121px,123px,105px;minh:0px,none,none,none;"
-                      data-padding="r:20,17,18,15;l:20,17,18,15;"
-                      data-border="boc:rgba(255,255,255,0.35);bow:1px,1px,1px,1px;bor:25px,25px,25px,25px;"
-                      data-frame_0="x:100%;y:0,0,0px,0px;skX:-45;"
-                      data-frame_1="x:0,0,0px,0px;y:0,0,0px,0px;st:750;sp:1000;sR:750;"
-                      data-frame_999="o:0;st:w;sR:7250;"
-                      data-frame_hover="c:#000;bgc:#fff;boc:rgba(255,255,255,0.75);bor:25px,25px,25px,25px;bow:1px,1px,1px,1px;sp:200;e:Power1.easeInOut;"
-                      style="z-index:13;font-family:Rubik;"
-                      >Learn More
-                    </rs-layer> -->
-
                   </rs-slide>
 
                 <!-- END layer 1 -->
@@ -190,8 +172,7 @@
 
                   <rs-slide data-key="rs-2" data-title="Slide" data-thumb="http://placehold.it/1920x1280" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
                     <img src="images/home_slider2.jpg" title="s3.jpg" width="1920" height="1001" class="rev-slidebg" data-no-retina>
-                    <!--
-                      -->
+
                     <rs-layer
                       id="slider-1-slide-2-layer-5"
                       data-type="text"
@@ -204,9 +185,7 @@
                       style="z-index:16;font-family:Playfair Display;"
                       >Fernando Cota
                     </rs-layer>
-                    <!--
 
-                      -->
                     <rs-layer
                       id="slider-1-slide-2-layer-6"
                       data-type="text"
@@ -220,18 +199,15 @@
                       style="z-index:15;font-family:Rubik;"
                       >Advocacia e Consultoria Jurídica<span class="text-theme-colored1"></span>
                     </rs-layer>
-                    <!--
-                      -->
+                  </rs-slide>
 
                 <!-- END layer 2 -->
 
                 <!-- START layer 3 -->
 
-                  </rs-slide>
                   <rs-slide data-key="rs-3" data-title="Slide" data-thumb="http://placehold.it/1920x1280" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
                     <img src="images/home_slider3.jpg" title="s2.jpg" width="1920" height="1001" data-bg="p:center top;" class="rev-slidebg" data-no-retina>
-                    <!--
-                      -->
+
                     <rs-layer
                       id="slider-1-slide-3-layer-5"
                       data-type="text"
@@ -244,9 +220,7 @@
                       style="z-index:16;font-family:Playfair Display;"
                       >Fernando Cota
                     </rs-layer>
-                    <!--
 
-                      -->
                     <rs-layer
                       id="slider-1-slide-3-layer-6"
                       data-type="text"
@@ -260,13 +234,11 @@
                       style="z-index:15;font-family:Rubik;"
                       >Advocacia e Consultoria Jurídica<span class="text-theme-colored1"></span>
                     </rs-layer>
-                    <!--
-                      -->
                   </rs-slide>
 
                 <!-- END layer 3 -->
-
                 </rs-slides>
+
                 <rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
               </rs-module>
               <script type="text/javascript">
@@ -328,120 +300,39 @@
       </div>
     </section>
 
-    <!-- LIVROS E PUBLICAÇÕES -->
+    <!-- END Carousel -->
 
-    <!-- Start  Divider -->
-    <section id="livros" class="layer-overlay overlay-theme-colored1-9" data-tm-bg-img="http://placehold.it/1920x1280">
+<!-- Fernando Cota -->
+
+    <!-- Section: About -->
+    <section id="about" class="" data-tm-bg-img="images/pattern/p6.png">
       <div class="container">
-        <div class="section-title section-typo-light">
-          <div class="row justify-content-md-center">
-            <div class="col-md-8">
-              <div class="text-center mb-60">
-                <div class="tm-sc tm-sc-section-title section-title section-title-style1 text-center bg-img-center bg-no-repeat line-bottom-style3-bordered-line">
-                  <div class="title-wrapper">
-                    <h2 class="title"> <span> Livros <span class="text-theme-colored2">e</span> Publicações </span> </h2>
-                    <div class="title-seperator-line"></div>
-                    <div class="paragraph">
-                      <p>Quer falar algo aqui???</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="section-content">
           <div class="row">
             <div class="col-lg-12">
-              <div class="tm-sc tm-sc-services tm-sc-services-carousel services-style7-fullwidth-gallery owl-dots-light-skin owl-dots-center">
-                <!-- Isotope Gallery Grid -->
-                <div class="owl-carousel owl-theme tm-owl-carousel-3col" data-autoplay="true" data-loop="true">
-                  <!-- the loop -->
-                  <div class="tm-carousel-item">
-                    <div class="service-style2">
-                      <div class="inner-box">
-                        <div class="thumb">
-                          <img class="img-fullwidth" alt="" width="448" height="672" src="images/books/DispositivoBR.jpg">
-                        </div>
-                        <div class="bg-white p-30">
-                          <p>Princípio dispositivo à luz dos limites objetivos da coisa julgada</p>
-                          <h3>Fernando Rey Cota Filho, edição Brasil</h3>
-                          <a href="page-service-criminal-law.html" class="font-17">Read More →</a>
-                        </div>
-                      </div>
+              <div class="tm-sc tm-sc-custom-columns-holder tm-cc-two-columns tm-cc-responsive-mode-1280">
+                <div class="tm-sc tm-sc-custom-columns-holder-item section-typo-light bg-theme-colored1" data-item-class="jurist-mascot-custom-columns-637946" data-1200-up="90px 15% 90px 15%" data-1199-down="100px 10% 100px 10%">
+                  <div class="item-inner">
+                    <div class="item-content jurist-mascot-custom-columns-637946">
+                      <img src="images/about_me.jpg" height="597" width="452" alt="" class="img-fullwidth">
                     </div>
                   </div>
-                  <div class="tm-carousel-item">
-                    <div class="service-style2">
-                      <div class="inner-box">
-                        <div class="thumb">
-                          <img class="img-fullwidth" alt="" src="http://placehold.it/672x448">
-                        </div>
-                        <div class="bg-white p-30">
-                          <h3>Personal Injury</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit hic.</p>
-                          <a href="page-service-personal-injury.html" class="font-17">Read More →</a>
-                        </div>
-                      </div>
-                    </div>
+                </div>
+                <div class="tm-sc tm-sc-custom-columns-holder-item section-typo-light" data-item-class="jurist-mascot-custom-columns-656104" data-1200-up="80px 15% 60px 15%" data-1199-down="80px 10% 60px 10%">
+                  <div class="item-inner">
+                    <div class="item-content bg-theme-colored2 jurist-mascot-custom-columns-656104">
+                      <h2>Fernando Cota</h2>
+                      <p>Advogado, formado pela Pontifícia Universidade Católica de São Paulo – PUC/SP, Mestre em direito pela Pontifícia Universidade Católica de São Paulo – PUC/SP.</p>
+                      <p>Advogado do escritório Arruda Alvim de 2013 a 2016, Coordenador de equipe de Contencioso Especializado no Kanamaru Advogados de 2016 a 2018, desenvolvendo e gerenciando equipe de 10 advogados.</p>
+                      <p>Assistente de Eduardo Arruda Alvim e Daniel Granado, na graduação, mestrado e Doutorado da PUC/SP e FADISP de 2011 a 2016.</p>
+                      <p>Professor da pós-graduação da Universidade Presbiteriana Mackenzie – Campus Consolação e Barueri; </p>
+                      <p>Professor da Pós-graduação da Escola Paulista de Direito – EPD; Ex-Professor da graduação da FMU.</p>
+                      <p>Autor de livro publicado no Brasil e Portugal e diversos artigos jurídicos nacionais e internacionais.</p>
+                      <p>Membro do CEAPRO, ABDPRO, Comissão de Estudos de Direito Processual Civil da OAB/AM.</p>
+                      <p>Avaliador Parecerista da Revista Jurídica da Unifil, Membro do Conselho editorial da Revista Forense de 2014 a 2016. Julgador da 1ª e 2ª Competição Brasileira de Processo.</p>
+                      <p>Advogado militante em São Paulo, Amazonas e Brasília.</p>
+                      <p>Idiomas: Inglês e Espanhol.</p>
                   </div>
-                  <div class="tm-carousel-item">
-                    <div class="service-style2">
-                      <div class="inner-box">
-                        <div class="thumb">
-                          <img class="img-fullwidth" alt="" src="http://placehold.it/672x448">
-                        </div>
-                        <div class="bg-white p-30">
-                          <h3>Legal Advice</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit hic.</p>
-                          <a href="page-service-legal-advice.html" class="font-17">Read More →</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tm-carousel-item">
-                    <div class="service-style2">
-                      <div class="inner-box">
-                        <div class="thumb">
-                          <img class="img-fullwidth" alt="" src="http://placehold.it/672x448">
-                        </div>
-                        <div class="bg-white p-30">
-                          <h3>Family Law</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit hic.</p>
-                          <a href="page-service-family-law.html" class="font-17">Read More →</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tm-carousel-item">
-                    <div class="service-style2">
-                      <div class="inner-box">
-                        <div class="thumb">
-                          <img class="img-fullwidth" alt="" src="http://placehold.it/672x448">
-                        </div>
-                        <div class="bg-white p-30">
-                          <h3>Business Law</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit hic.</p>
-                          <a href="page-service-business-law.html" class="font-17">Read More →</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tm-carousel-item">
-                    <div class="service-style2">
-                      <div class="inner-box">
-                        <div class="thumb">
-                          <img class="img-fullwidth" alt="" src="http://placehold.it/672x448">
-                        </div>
-                        <div class="bg-white p-30">
-                          <h3>Education Law</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit hic.</p>
-                          <a href="page-service-education-law.html" class="font-17">Read More →</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- end of the loop -->
                 </div>
               </div>
             </div>
@@ -451,90 +342,21 @@
     </section>
     <!-- End Divider -->
 
-    <!-- Section: About -->
-    <section class="bg-no-repeat bg-img-center-bottom" data-tm-bg-img="images/bg/1.png">
-      <div class="container pt-0">
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-12 col-lg-5">
-              <div class="tm-sc tm-sc-animated-layer-images mb-lg-80">
-                <div class="layer-image-wrapper tm-animation move-right">
-                  <div class="layer-image "> <img src="http://placehold.it/530x590" alt="Image"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-lg-7">
-              <h2 class="mt-0">We Fight <span class="text-theme-colored1">for justice</span>, we are always ready to best solution for your problem</h2>
-              <p class="mt-30 mb-30">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from fruit to identify a ballpark value added. Nanotechnology immersion along the information highway will close.</p>
-              <div class="row">
-                <div class="mb-sm-40 col-md-3 col-lg-3 col-has-fill">
-                  <div class="tm-sc tm-sc-funfact funfact text-center">
-                    <h2 class="counter mt-0 line-height-1 font-size-86 text-theme-colored2">
-                      <span class="animate-number" data-value="84" data-animation-duration="1500">0</span>
-                    </h2>
-                    <h5 class="mt-30 font-size-17">Trusted Client</h5>
-                  </div>
-                </div>
-                <div class="mb-sm-40 col-md-3 col-lg-3 col-has-fill">
-                  <div class="tm-sc tm-sc-funfact funfact text-center">
-                    <h2 class="counter mt-0 line-height-1 font-size-86 text-theme-colored2">
-                      <span class="animate-number" data-value="96" data-animation-duration="1500">0</span>
-                    </h2>
-                    <h5 class="mt-30 font-size-17">Cases Won</h5>
-                  </div>
-                </div>
-                <div class="mb-sm-40 col-md-3 col-lg-3 col-has-fill">
-                  <div class="tm-sc tm-sc-funfact funfact text-center">
-                    <h2 class="counter mt-0 line-height-1 font-size-86 text-theme-colored2">
-                      <span class="animate-number" data-value="68" data-animation-duration="1500">0</span>
-                    </h2>
-                    <h5 class="mt-30 font-size-17">Project Done</h5>
-                  </div>
-                </div>
-                <div class="mb-sm-40 col-md-3 col-lg-3">
-                  <div class="tm-sc tm-sc-funfact funfact text-center">
-                    <h2 class="counter mt-0 line-height-1 font-size-86 text-theme-colored2">
-                      <span class="animate-number" data-value="30" data-animation-duration="1500">0</span>
-                    </h2>
-                    <h5 class="mt-30 font-size-17">Years Of Experience</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 col-lg-8 mt-50">
-                  <div role="form" class="wpcf7 mt-md-30" id="wpcf7-f19379-p19314-o2" lang="en-US" dir="ltr">
-                    <div class="screen-reader-response"></div>
-                    <form action="#" method="post" class="wpcf7-form" novalidate="novalidate">
-                      <div> <input type="hidden" name="_wpcf7" value="19379" /> <input type="hidden" name="_wpcf7_version" value="5.1.4" /> <input type="hidden" name="_wpcf7_locale" value="en_US" /> <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f19379-p19314-o2" /> <input type="hidden" name="_wpcf7_container_post" value="19314" /></div>
-                      <div class="tm-cf7-subscription-form-round-btn">
-                        <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control bg-silver-light" aria-required="true" aria-invalid="false" placeholder="Email Address" /></span>
-                        <div class="submit-btn"><input type="submit" value="Send Request" class="wpcf7-form-control wpcf7-submit btn btn-dark btn-theme-colored2 btn-round" /></div>
-                      </div>
-                      <div class="wpcf7-response-output wpcf7-display-none"></div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Divider -->
+<!-- Practice Areas -->
 
     <!-- Section: Services -->
-    <section class="bg-white-f5" data-tm-bg-img="images/bg/1c9.png">
+    <section id="practice-areas" class="bg-white-f5" data-tm-bg-img="images/bg/1c9.png">
       <div class="container pt-50 pb-50">
         <div class="section-title">
           <div class="row justify-content-md-center">
-            <div class="col-md-8">
+            <div class="col-md-12">
               <div class="text-center mb-30">
                 <div class="tm-sc tm-sc-section-title section-title section-title-style1 text-center bg-img-center bg-no-repeat line-bottom-style3-bordered-line">
                   <!-- <div class="title-wrapper"> -->
                     <h2 class="title"> <span class="">Áreas </span> <span class="text-theme-colored1">de</span> <span class=""> Atuação</span></h2>
-                    <div class="title-seperator-line"></div>
+                    <div class="title-separator-line"></div>
                     <div class="paragraph">
-                      <h4>Contencioso e Consultivo.</h4>
+                      <h4 class="pb-10">Contencioso e Consultivo.</h4>
                       <p>
                         As experiências e habilidades adquiridas ao longo da carreira, somados aos grandes projetos de sucesso levam a confiança de clientes e parceiros tanto na área contenciosa quanto na área consultiva.
                       </p>
@@ -561,48 +383,143 @@
     </section>
     <!-- End Divider -->
 
+<!-- Books and Publishings -->
 
-
-    <!-- Section: Features -->
-    <section class="" data-tm-bg-img="images/pattern/p6.png">
-      <div class="container">
+    <!-- Section: Services -->
+    <section id="books">
+      <div class="container pt-90">
         <div class="section-content">
           <div class="row">
-            <div class="col-lg-12">
-              <div class="tm-sc tm-sc-custom-columns-holder tm-cc-two-columns tm-cc-responsive-mode-1280">
-                <div class="tm-sc tm-sc-custom-columns-holder-item section-typo-light bg-theme-colored1" data-item-class="jurist-mascot-custom-columns-637946" data-1200-up="90px 15% 90px 15%" data-1199-down="100px 10% 100px 10%">
-                  <div class="item-inner">
-                    <div class="item-content jurist-mascot-custom-columns-637946">
-                      <img src="http://placehold.it/452x597" alt="" class="img-fullwidth">
-                    </div>
-                  </div>
-                </div>
-                <div class="tm-sc tm-sc-custom-columns-holder-item section-typo-light" data-item-class="jurist-mascot-custom-columns-656104" data-1200-up="80px 15% 60px 15%" data-1199-down="80px 10% 60px 10%">
-                  <div class="item-inner">
-                    <div class="item-content bg-theme-colored2 jurist-mascot-custom-columns-656104">
-                      <h2>Over 30+ Years of Experiences Highly Skilled Attorneys</h2>
-                      <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from fruit to identify a ballpark value added.</p>
-                      <div class="tm-sc tm-sc-progress-bar progress-bar-fixed-right-percent mt-30 mb-40" data-percent="95" data-unit-left="" data-unit-right="%" data-bar-height="" data-barcolor="bg-theme-colored1">
-                        <div class="progress-title-holder">
-                          <h6 class="pb-title">Business law</h6>
-                          <span class="percent"><span class="symbol-left"></span><span class="value">95</span><span class="symbol-right">%</span></span>
-                        </div>
-                        <div class="progress-holder">
-                          <div class="progress-content"></div>
-                        </div>
-                      </div>
-                      <div class="tm-sc tm-sc-progress-bar progress-bar-fixed-right-percent mb-40" data-percent="80" data-unit-left="" data-unit-right="%" data-bar-height="" data-barcolor="bg-theme-colored1">
-                        <div class="progress-title-holder">
-                          <h6 class="pb-title">personal law</h6>
-                          <span class="percent"><span class="symbol-left"></span><span class="value">80</span><span class="symbol-right">%</span></span>
-                        </div>
-                        <div class="progress-holder">
-                          <div class="progress-content"></div>
+            <div class="col-lg-4">
+              <div class="bg-theme-colored1 p-50 section-typo-light h-100">
+                <h2 class="mt-0 mt-md-30 line-bottom">Who we are?</h2>
+                <p class="mt-30 mb-30">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibhie euismod tincidunt utlaoreet dolore.Capitalize on low hanging fruit to identify a ballpark value.There are many variations of passages of available but the majority have suffered alteration in some.</p>
+                <!-- <a href="page-about.html" class="btn btn-outline-theme-colored2 btn-outline btn-flat btn-md">Read More</a> -->
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="tm-sc tm-sc-services tm-sc-services-carousel services-style7-fullwidth-gallery owl-dots-light-skin owl-dots-center">
+                <!-- Isotope Gallery Grid -->
+                <div class="owl-carousel owl-theme tm-owl-carousel-2col" data-autoplay="true" data-loop="true">
+                  <!-- the loop -->
+                  <div class="tm-carousel-item">
+                      <div class="service-style2">
+                        <div class="inner-box">
+                          <div class="thumb">
+                            <img class="img-fullwidth" alt="" src="images/books/forense 423.png">
+                          </div>
+                          <div class="bg-white-f5 p-20 text-book-card">
+                            <h5>O alcance do bem comum através da ética e do direito</h5>
+                            <p>Fernando Rey Cota Filho, Fernanda Mathias e Daniel Willian Granado</p>
+                          </div>
                         </div>
                       </div>
-                      <div class="mt-20 mb-20"><img width="175" height="42" src="images/signature01.png" alt="" /></div>
-                    </div>
                   </div>
+                  <div class="tm-carousel-item">
+                      <div class="service-style2">
+                        <div class="inner-box">
+                          <div class="thumb">
+                            <img class="img-fullwidth" alt="" src="images/books/forense 424.png">
+                          </div>
+                          <div class="bg-white-f5 p-20 text-book-card">
+                            <h5>Companies’ Failure to Comply With Repeated Court Decisions Due to Financial Benefits From the Delay in the Process.</h5>
+                            <p>Fernando Rey Cota Filho</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="tm-carousel-item">
+                      <div class="service-style2">
+                        <div class="inner-box">
+                          <div class="thumb">
+                            <img class="img-fullwidth p-30" alt="" src="images/books/DispositivoBR.jpg">
+                          </div>
+                          <div class="bg-white-f5 p-20 text-book-card">
+                            <h5>Princípio dispositivo à luz dos limites objetivos da coisa julgada. Edição Brasil</h5>
+                            <p>Fernando Rey Cota Filho</p>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="tm-carousel-item">
+                      <div class="service-style2">
+                        <div class="inner-box">
+                          <div class="thumb">
+                            <img class="img-fullwidth p-30" alt="" src="images/books/DispositivoPT.pdf">
+                          </div>
+                          <div class="bg-white-f5 p-20 text-book-card">
+                            <h5>Princípio dispositivo à luz dos limites objetivos da coisa julgada. Edição Europa</h5>
+                            <p>Fernando Rey Cota Filho</p>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="tm-carousel-item">
+                      <div class="service-style2">
+                        <div class="inner-box">
+                          <div class="thumb">
+                            <img class="img-fullwidth p-30" alt="" src="images/books/CodigoLuauri.pdf">
+                          </div>
+                          <div class="bg-white-f5 p-20 text-book-card">
+                            <h5>Comentários aos institutos do Chamamento ao processo, Assistência, Denunciação da lide</h5>
+                            <p>Fernando Rey Cota Filho e Rodrigo Lucas Alves</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="tm-carousel-item">
+                      <div class="service-style2">
+                        <div class="inner-box">
+                          <div class="thumb">
+                            <img class="img-fullwidth p-30" alt="" src="images/books/ArtigoOnusdaProva.CDC.Angelica.pdf">
+                          </div>
+                          <div class="bg-white-f5 p-20 text-book-card">
+                            <h5>Momento de distribuição do ônus da prova</h5>
+                            <p>Fernando Rey Cota Filho e Daniel Willian Granado</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="tm-carousel-item">
+                      <div class="service-style2">
+                        <div class="inner-box">
+                          <div class="thumb">
+                            <img class="img-fullwidth p-30" alt="" src="images/books/WalterPiva.pdf">
+                          </div>
+                          <div class="bg-white-f5 p-20 text-book-card">
+                            <h5>Citar artigo</h5>
+                            <p>Fernando Rey Cota Filho</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="tm-carousel-item">
+                      <div class="service-style2">
+                        <div class="inner-box">
+                          <div class="thumb">
+                            <img class="img-fullwidth p-30" alt="" src="images/books/RJBL.ano5.2019.pdf">
+                          </div>
+                          <div class="bg-white-f5 p-20 text-book-card">
+                            <h5>A Coisa Julgada sobre Questões Prejudiciais – Um Olhar sobre o CPC/1939 e o CPC/2015</h5>
+                            <p>Fernando Rey Cota Filho e Daniel Willian Granado</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="tm-carousel-item">
+                      <div class="service-style2">
+                        <div class="inner-box">
+                          <div class="thumb">
+                            <img class="img-fullwidth p-30" alt="" src="images/books/RJBL.2016.2.6.pdf">
+                          </div>
+                          <div class="bg-white-f5 p-20 text-book-card">
+                            <h6>Considerações a Respeito do Alcance do Artigo 1.034 e Artigo 489, §3º, do Novo Código de Processo Civil – Uma Nova Visão Acerca da Exigência do Prequestionamento</h6>
+                            <p>Fernando Rey Cota Filho & Anaísa Pasqual Salgado Cintra,</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!-- end of the loop -->
                 </div>
               </div>
             </div>
@@ -612,20 +529,19 @@
     </section>
     <!-- End Divider -->
 
-    <!-- Section: Case Studies -->
-    <section class="bg-white-f5" data-tm-bg-img="images/bg/1c9.png">
-      <div class="container pt-90 pb-90">
+<!-- Clients Testimonials -->
+
+    <!-- Section: Clients -->
+
+    <section data-tm-bg-img="http://placehold.it/1920x1280">
+      <div id="clients" class="container pt-90 pb-80">
         <div class="section-title">
           <div class="row justify-content-md-center">
             <div class="col-md-8">
               <div class="text-center mb-60">
-                <div class="tm-sc tm-sc-section-title section-title section-title-style1 text-center bg-img-center bg-no-repeat line-bottom-style3-bordered-line">
+                <div class="tm-sc tm-sc-section-title section-title section-title-style1 text-center bg-img-center bg-no-repeat">
                   <div class="title-wrapper">
-                    <h2 class="title"> <span class="">Our </span> <span class="text-theme-colored1">Case Studies</span></h2>
-                    <div class="title-seperator-line"></div>
-                    <div class="paragraph">
-                      <p>Explore Our Completed Projects! Consectetur adipiscing elitt elit tellus, luctus pulvinar dapibus leoconsectetur luctus nec.</p>
-                    </div>
+                    <h2 class="title text-white">What <span class="text-theme-colored2">Customers</span> Say</h2>
                   </div>
                 </div>
               </div>
@@ -637,76 +553,76 @@
             <div class="col-lg-12">
               <div class="tm-sc tm-sc-services tm-sc-services-carousel services-style7-fullwidth-gallery owl-dots-light-skin owl-dots-center">
                 <!-- Isotope Gallery Grid -->
-                <div class="owl-carousel owl-theme tm-owl-carousel-3col" data-nav="true" data-autoplay="true" data-loop="true">
+                <div class="owl-carousel owl-theme tm-owl-carousel-2col" data-autoplay="true" data-loop="true">
                   <!-- the loop -->
                   <div class="tm-carousel-item">
-                    <div class="project-style1 tm-service">
-                      <div class="image-thumb">
-                        <div class="thumb">
-                          <img src="http://placehold.it/600x800" alt="Awesome Image">
-                        </div>
-                        <div class="title-holder overlay text-center">
-                          <h3><a href="#">Personal Issue</a></h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tm-carousel-item">
-                    <div class="project-style1 tm-service">
-                      <div class="image-thumb">
-                        <div class="thumb">
-                          <img src="http://placehold.it/600x800" alt="Awesome Image">
-                        </div>
-                        <div class="title-holder overlay text-center">
-                          <h3><a href="#">Capital Management</a></h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tm-carousel-item">
-                    <div class="project-style1 tm-service">
-                      <div class="image-thumb">
-                        <div class="thumb">
-                          <img src="http://placehold.it/600x800" alt="Awesome Image">
-                        </div>
-                        <div class="title-holder overlay text-center">
-                          <h3><a href="#">Personal Injury</a></h3>
+                    <div class="tm-sc tm-sc-testimonials testimonial-style7-current-theme">
+                      <div class="tm-testimonial testimonials type-testimonials">
+                        <div class="testimonial-inner">
+                          <div class="testimonial-author-details">
+                            <div class="testimonial-header">
+                              <div class="author-text"> I feel very happy and be proud to connect with this industry. I presume this is a very productive and professional industry. I wish very good luck & success for this industry</div>
+                              <div class="star-rating"> <span data-tm-width="90%"></span></div>
+                            </div>
+                            <div class="testimonial-footer">
+                              <div class="testimonial-image-holder">
+                                <div class="author-thumb"> <img width="85" height="85" src="http://placehold.it/100x100" class="img-fullwidth rounded-circle wp-post-image" alt=""/></div>
+                              </div>
+                              <div class="author-info">
+                                <h5 class="name">Tarna Jasmin</h5>
+                                <span class="job-position">Developer</span> <a class="company-url" href=""></a>
+                              </div>
+                              <div class="clearfix"></div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="tm-carousel-item">
-                    <div class="project-style1 tm-service">
-                      <div class="image-thumb">
-                        <div class="thumb">
-                          <img src="http://placehold.it/600x800" alt="Awesome Image">
-                        </div>
-                        <div class="title-holder overlay text-center">
-                          <h3><a href="#">Capital Management</a></h3>
+                    <div class="tm-sc tm-sc-testimonials testimonial-style7-current-theme">
+                      <div class="tm-testimonial testimonials type-testimonials">
+                        <div class="testimonial-inner">
+                          <div class="testimonial-author-details">
+                            <div class="testimonial-header">
+                              <div class="author-text"> I feel very happy and be proud to connect with this industry. I presume this is a very productive and professional industry. I wish very good luck & success for this industry</div>
+                              <div class="star-rating"> <span data-tm-width="100%"></span></div>
+                            </div>
+                            <div class="testimonial-footer">
+                              <div class="testimonial-image-holder">
+                                <div class="author-thumb"> <img width="85" height="85" src="http://placehold.it/100x100" class="img-fullwidth rounded-circle wp-post-image" alt=""/></div>
+                              </div>
+                              <div class="author-info">
+                                <h5 class="name">Hilton Alex</h5>
+                                <span class="job-position">Designer</span> <a class="company-url" href=""></a>
+                              </div>
+                              <div class="clearfix"></div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="tm-carousel-item">
-                    <div class="project-style1 tm-service">
-                      <div class="image-thumb">
-                        <div class="thumb">
-                          <img src="http://placehold.it/600x800" alt="Awesome Image">
-                        </div>
-                        <div class="title-holder overlay text-center">
-                          <h3><a href="#">Personal Consulting</a></h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tm-carousel-item">
-                    <div class="project-style1 tm-service">
-                      <div class="image-thumb">
-                        <div class="thumb">
-                          <img src="http://placehold.it/600x800" alt="Awesome Image">
-                        </div>
-                        <div class="title-holder overlay text-center">
-                          <h3><a href="#">Business Issue</a></h3>
+                    <div class="tm-sc tm-sc-testimonials testimonial-style7-current-theme">
+                      <div class="tm-testimonial testimonials type-testimonials">
+                        <div class="testimonial-inner">
+                          <div class="testimonial-author-details">
+                            <div class="testimonial-header">
+                              <div class="author-text"> I feel very happy and be proud to connect with this industry. I presume this is a very productive and professional industry. I wish very good luck & success for this industry</div>
+                              <div class="star-rating"> <span data-tm-width="90%"></span></div>
+                            </div>
+                            <div class="testimonial-footer">
+                              <div class="testimonial-image-holder">
+                                <div class="author-thumb"> <img width="85" height="85" src="http://placehold.it/100x100" class="img-fullwidth rounded-circle wp-post-image" alt=""/></div>
+                              </div>
+                              <div class="author-info">
+                                <h5 class="name">Sonia Malkova</h5>
+                                <span class="job-position">Designer</span> <a class="company-url" href=""></a>
+                              </div>
+                              <div class="clearfix"></div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -719,11 +635,29 @@
         </div>
       </div>
     </section>
+
+    <!-- End Divider -->
+
+    <!-- Section: About -->
+    <section class="bg-no-repeat bg-img-center-bottom" data-tm-bg-img="images/bg/1.png">
+      <div id="mission" class="container pt-60">
+        <div class="section-content text-center mx-auto">
+          <!-- <div class="row"> -->
+            <div class="col-sm-12 col-lg-12">
+              <h2 class="">Missão <span class="text-theme-colored1">e</span> Valores</h2>
+              <p>No Cota Adv sabemos a importância de um escritório que entende a necessidade do cliente, e trabalha para, em conjunto, dando o devido suporte, ajudar o cliente a desenvolver suas atividades, garantindo a segurança jurídica e controlando o risco de sua atividade. Mais do que uma área de apoio, somos verdadeiros agentes catalisadores do sucesso de nossos clientes.</p>
+              <p>Nossos clientes tem a segurança e tranquilidade de contar com equipe que entende do seu modelo de negócio, atuando e auxiliando a partir da visão de quem conhece a excelência do cliente, analisando as situações para poder apresentar as opções de soluções seguras e dinâmicas.</p>
+              <p class="">Nossa missão é ser agente de solução, não causador de problemas.</p>
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </section>
     <!-- End Divider -->
 
     <!-- Section: Contact Form -->
     <section class="layer-overlay overlay-theme-colored1-9" data-tm-bg-img="http://placehold.it/1920x1280">
-      <div class="container">
+      <div id="contact-form" class="container">
         <div class="section-content">
           <div class="row">
             <div class="col-lg-6">
@@ -799,192 +733,10 @@
 
 
 
-    <!-- Section: Testimonial -->
-    <section data-tm-bg-img="http://placehold.it/1920x1280">
-      <div class="container pt-90 pb-80">
-        <div class="section-title">
-          <div class="row justify-content-md-center">
-            <div class="col-md-8">
-              <div class="text-center mb-60">
-                <div class="tm-sc tm-sc-section-title section-title section-title-style1 text-center bg-img-center bg-no-repeat">
-                  <div class="title-wrapper">
-                    <h2 class="title text-white">What <span class="text-theme-colored2">Customers</span> Say</h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-6 col-lg-6 col-xl-4">
-              <div class="tm-sc tm-sc-testimonials testimonial-style7-current-theme mb-md-30">
-                <div class="tm-testimonial testimonials type-testimonials">
-                  <div class="testimonial-inner">
-                    <div class="testimonial-author-details">
-                      <div class="testimonial-header">
-                        <div class="author-text"> I feel very happy and be proud to connect with this industry. I presume this is a very productive and professional industry. I wish very good luck & success for this industry</div>
-                        <div class="star-rating"> <span data-tm-width="90%"></span></div>
-                      </div>
-                      <div class="testimonial-footer">
-                        <div class="testimonial-image-holder">
-                          <div class="author-thumb"> <img width="85" height="85" src="http://placehold.it/100x100" class="img-fullwidth rounded-circle wp-post-image" alt=""/></div>
-                        </div>
-                        <div class="author-info">
-                          <h5 class="name">Tarna Jasmin</h5>
-                          <span class="job-position">Developer</span> <a class="company-url" href=""></a>
-                        </div>
-                        <div class="clearfix"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-xl-4">
-              <div class="tm-sc tm-sc-testimonials testimonial-style7-current-theme mb-md-30">
-                <div class="tm-testimonial testimonials type-testimonials">
-                  <div class="testimonial-inner">
-                    <div class="testimonial-author-details">
-                      <div class="testimonial-header">
-                        <div class="author-text"> I feel very happy and be proud to connect with this industry. I presume this is a very productive and professional industry. I wish very good luck & success for this industry</div>
-                        <div class="star-rating"> <span data-tm-width="100%"></span></div>
-                      </div>
-                      <div class="testimonial-footer">
-                        <div class="testimonial-image-holder">
-                          <div class="author-thumb"> <img width="85" height="85" src="http://placehold.it/100x100" class="img-fullwidth rounded-circle wp-post-image" alt=""/></div>
-                        </div>
-                        <div class="author-info">
-                          <h5 class="name">Hilton Alex</h5>
-                          <span class="job-position">Designer</span> <a class="company-url" href=""></a>
-                        </div>
-                        <div class="clearfix"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-xl-4">
-              <div class="tm-sc tm-sc-testimonials testimonial-style7-current-theme">
-                <div class="tm-testimonial testimonials type-testimonials">
-                  <div class="testimonial-inner">
-                    <div class="testimonial-author-details">
-                      <div class="testimonial-header">
-                        <div class="author-text"> I feel very happy and be proud to connect with this industry. I presume this is a very productive and professional industry. I wish very good luck & success for this industry</div>
-                        <div class="star-rating"> <span data-tm-width="90%"></span></div>
-                      </div>
-                      <div class="testimonial-footer">
-                        <div class="testimonial-image-holder">
-                          <div class="author-thumb"> <img width="85" height="85" src="http://placehold.it/100x100" class="img-fullwidth rounded-circle wp-post-image" alt=""/></div>
-                        </div>
-                        <div class="author-info">
-                          <h5 class="name">Sonia Malkova</h5>
-                          <span class="job-position">Designer</span> <a class="company-url" href=""></a>
-                        </div>
-                        <div class="clearfix"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Divider -->
 
-    <!-- Section: News & Updates-->
-    <section data-tm-bg-img="images/bg/1c9.png">
-      <div class="container pt-90">
-        <div class="section-title">
-          <div class="row justify-content-md-center">
-            <div class="col-md-8">
-              <div class="text-center mb-60">
-                <div class="tm-sc tm-sc-section-title section-title section-title-style1 text-center bg-img-center bg-no-repeat line-bottom-style3-bordered-line">
-                  <div class="title-wrapper">
-                    <h2 class="title"> <span class="">Latest </span> <span class="text-theme-colored1">News</span></h2>
-                    <div class="title-seperator-line"></div>
-                    <div class="paragraph">
-                      <p>Explore Our Completed Projects! Consectetur adipiscing elitt elit tellus, luctus pulvinar dapibus leoconsectetur luctus nec.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-6 col-lg-6 col-xl-4">
-              <div class="tm-sc tm-sc-blog tm-sc-blog-masonry blog-style1-current-theme mb-lg-30">
-                <article class="post type-post status-publish format-standard has-post-thumbnail news">
-                  <div class="date">24 <br>Aug</div>
-                  <div class="entry-header">
-                    <div class="post-thumb lightgallery-lightbox">
-                      <div class="post-thumb-inner">
-                        <div class="thumb"> <img src="http://placehold.it/672x448" alt="Image"/></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="entry-content">
-                    <h4 class="entry-title"><a href="news-details.html" rel="bookmark">Capitalize on low hanging fruit to identify ballpark</a></h4>
-                    <div class="pst-excerpt">
-                      <div class="mascot-post-excerpt mb-20">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Molestias eius illum libero dolor nobis....</div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-xl-4">
-              <div class="tm-sc tm-sc-blog tm-sc-blog-masonry blog-style1-current-theme mb-lg-30">
-                <article class="post type-post status-publish format-standard has-post-thumbnail news">
-                  <div class="date">21 <br>Dec</div>
-                  <div class="entry-header">
-                    <div class="post-thumb lightgallery-lightbox">
-                      <div class="post-thumb-inner">
-                        <div class="thumb"> <img src="http://placehold.it/672x448" alt="Image"/></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="entry-content">
-                    <h4 class="entry-title"><a href="news-details.html" rel="bookmark">Capitalize on low hanging fruit to identify a ballpark test</a></h4>
-                    <div class="post-excerp">
-                      <div class="mascot-post-excerpt mb-20">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Molestias eius illum libero dolor nobis....</div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-xl-4">
-              <div class="tm-sc tm-sc-blog tm-sc-blog-masonry blog-style1-current-theme">
-                <article class="post type-post status-publish format-standard has-post-thumbnail news">
-                  <div class="date">21 <br>Jun</div>
-                  <div class="entry-header">
-                    <div class="post-thumb lightgallery-lightbox">
-                      <div class="post-thumb-inner">
-                        <div class="thumb"> <img src="http://placehold.it/672x448" alt="Image"/></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="entry-content">
-                    <h4 class="entry-title"><a href="news-details.html" rel="bookmark">Capitalize on low hanging fruit to ballpark test</a></h4>
-                    <div class="pot-excerpt">
-                      <div class="mascot-post-excerpt mb-20">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Molestias eius illum libero dolor nobis....</div>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Divider -->
 
     <!-- Start  Divider -->
-    <section class="bg-theme-colored1">
+    <!-- <section class="bg-theme-colored1">
       <div class="container pt-60 pb-60">
         <div class="section-content">
           <div class="row">
@@ -1003,118 +755,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End Divider -->
   </div>
-
-  <section>
-      <div class="container pt-90">
-        <div class="section-content">
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="bg-theme-colored1 p-50 section-typo-light">
-                <h2 class="mt-0 mt-md-30 line-bottom">Who we are?</h2>
-                <p class="mt-30 mb-30">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibhie euismod tincidunt utlaoreet dolore.Capitalize on low hanging fruit to identify a ballpark value.There are many variations of passages of available but the majority have suffered alteration in some.</p>
-                <a href="page-about.html" class="btn btn-outline-theme-colored2 btn-outline btn-flat btn-md">Read More</a>
-              </div>
-            </div>
-            <div class="col-lg-8">
-              <div class="tm-sc tm-sc-services tm-sc-services-carousel services-style7-fullwidth-gallery owl-dots-light-skin owl-dots-center">
-                <!-- Isotope Gallery Grid -->
-                <div class="owl-carousel owl-theme tm-owl-carousel-2col" data-autoplay="true" data-loop="true">
-                  <!-- the loop -->
-                  <div class="tm-carousel-item">
-                    <div class="service-style2">
-                      <div class="inner-box">
-                        <div class="thumb">
-                          <img class="img-fullwidth" alt="" src="http://placehold.it/672x448">
-                        </div>
-                        <div class="bg-white-f5 p-30">
-                          <h3>Criminal Law</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit hicipsum dolor.</p>
-                          <a href="page-service-criminal-law.html" class="btn btn-outline-theme-colored2 btn-outline btn-round btn-sm mt-20">Read More</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tm-carousel-item">
-                    <div class="service-style2">
-                      <div class="inner-box">
-                        <div class="thumb">
-                          <img class="img-fullwidth" alt="" src="http://placehold.it/672x448">
-                        </div>
-                        <div class="bg-white-f5 p-30">
-                          <h3>Personal Injury</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit hicipsum dolor.</p>
-                          <a href="page-service-personal-injury.html" class="btn btn-outline-theme-colored2 btn-outline btn-round btn-sm mt-20">Read More</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tm-carousel-item">
-                    <div class="service-style2">
-                      <div class="inner-box">
-                        <div class="thumb">
-                          <img class="img-fullwidth" alt="" src="http://placehold.it/672x448">
-                        </div>
-                        <div class="bg-white-f5 p-30">
-                          <h3>Legal Advice</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit hicipsum dolor.</p>
-                          <a href="page-service-legal-advice.html" class="btn btn-outline-theme-colored2 btn-outline btn-round btn-sm mt-20">Read More</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tm-carousel-item">
-                    <div class="service-style2">
-                      <div class="inner-box">
-                        <div class="thumb">
-                          <img class="img-fullwidth" alt="" src="http://placehold.it/672x448">
-                        </div>
-                        <div class="bg-white-f5 p-30">
-                          <h3>Family Law</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit hicipsum dolor.</p>
-                          <a href="page-service-family-law.html" class="btn btn-outline-theme-colored2 btn-outline btn-round btn-sm mt-20">Read More</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tm-carousel-item">
-                    <div class="service-style2">
-                      <div class="inner-box">
-                        <div class="thumb">
-                          <img class="img-fullwidth" alt="" src="http://placehold.it/672x448">
-                        </div>
-                        <div class="bg-white-f5 p-30">
-                          <h3>Business Law</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit hicipsum dolor.</p>
-                          <a href="page-service-business-law.html" class="btn btn-outline-theme-colored2 btn-outline btn-round btn-sm mt-20">Read More</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tm-carousel-item">
-                    <div class="service-style2">
-                      <div class="inner-box">
-                        <div class="thumb">
-                          <img class="img-fullwidth" alt="" src="http://placehold.it/672x448">
-                        </div>
-                        <div class="bg-white-f5 p-30">
-                          <h3>Education Law</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit hicipsum dolor.</p>
-                          <a href="page-service-education-law.html" class="btn btn-outline-theme-colored2 btn-outline btn-round btn-sm mt-20">Read More</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- end of the loop -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   <!-- end main-content -->
 
   <!-- Footer -->
@@ -1214,17 +857,13 @@
       </div>
       <div class="footer-bottom" data-tm-bg-color="#2A2A2A">
         <div class="container">
-          <div class="row pt-20 pb-20">
-            <div class="col-sm-6">
-              <div class="footer-paragraph">
-                © 2019 ThemeMascot. All Rights Reserved.
+          <div class="row pt-20 pb-20 mx-auto">
+            <!-- <div class="col-sm-6"> -->
+              <div class="footer-paragraph mx-auto">
+                © 2020 Fernando Cota.All Rights Reserved.
               </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="footer-paragraph text-right">
-                Site Template
-              </div>
-            </div>
+            <!-- </div> -->
+
           </div>
         </div>
       </div>

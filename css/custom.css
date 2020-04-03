@@ -1,0 +1,18 @@
+.text-book-card h5 {
+  height: 60%;
+}
+
+.text-book-card p {
+  height: 40%;
+}
+
+.service-style2 .inner-box .thumb
+img {
+  height: 420px !important;
+  width: 100% !important;
+}
+
+.service-style2 .inner-box .bg-white-f5 {
+  height: 180px !important;
+
+}
