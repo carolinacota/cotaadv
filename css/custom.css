@@ -2,8 +2,14 @@
   height: 60%;
 }
 
+.text-book-card h6 {
+  height: 60%;
+}
+
 .text-book-card p {
   height: 40%;
+  line-height: 20px;
+  padding-top: 2px;
 }
 
 .service-style2 .inner-box .thumb
