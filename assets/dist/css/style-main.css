@@ -18417,11 +18417,12 @@ body.tm-dark-layout .tm-sc-staff.staff-style2-classic .staff-content {
             transition: none; } }
       .tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details .testimonial-header {
         margin-bottom: 30px;
-        height: 70%; }
+        height: 80%; }
         .tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details .testimonial-header .star-rating {
           margin-top: 10px; }
       .tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details .testimonial-footer {
-        height: 30%; }
+        height: 20%;
+        padding-top: 10px; }
         .tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details .testimonial-footer .testimonial-image-holder {
           width: 90px;
           float: left;

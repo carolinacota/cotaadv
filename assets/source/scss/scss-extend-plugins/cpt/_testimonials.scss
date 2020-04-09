@@ -304,13 +304,14 @@
 
 				.testimonial-header {
 					margin-bottom: 30px;
-          height: 70%;
+          height: 80%;
 					.star-rating {
 						margin-top: 10px;
 					}
 				}
 				.testimonial-footer {
-          height: 30%;
+          height: 20%;
+          padding-top: 10px;
 					.testimonial-image-holder {
 						width: 90px;
 						float: left;
@@ -449,3 +450,9 @@ body {
 		}
 	}
 }
+
+// @media (max-width: 767px) {
+//   .testimonial-header {
+//     font-size: 14px;
+//   }
+// }
