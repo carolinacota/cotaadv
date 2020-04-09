@@ -5,9 +5,12 @@ $URL: https://themeforest.net/user/ThemeMascot
 ----------------------------------------- */
 $total-theme-colors: 4;
 
-$theme-color1: #5472d2;
-$theme-color2: #1b2734;
-$theme-color3: #3E5D76;
-$theme-color4: #0069BA;
+$theme-color1: #5472d2; // not used blue
+$theme-color2: #1b2734; // dark blue
+$theme-color3: #3E5D76; // blue
+$theme-color4: #0069BA; // not used blue
+
+// #3f46aa
+// #383b7b
 
 @import "parts/loader";
