@@ -59,6 +59,9 @@ Apple iPod Touch (5th generation)
 */
 @media (min-width: 1136px) and (max-width: 1279px) {
 	body {	font-size: 16px; }
+	.author-text {
+		font-size: 14px;
+	}
 }
 
 /*
@@ -73,6 +76,10 @@ Apple iPod Touch (4th generation)
 	h4 { font-size:1.3846em; }	/* 18px */
 	h5 { font-size:1.2308em; }	/* 16px */
 	h6 { font-size:1em; }		/* 13px */
+
+	.author-text {
+		font-size: 12px;
+	}
 }
 
 /*
@@ -95,6 +102,10 @@ Samsung Galaxy
 	h4 { font-size:1.3846em; }	/* 18px */
 	h5 { font-size:1.2308em; }	/* 16px */
 	h6 { font-size:1em; }		/* 13px */
+
+	.author-text {
+		font-size: 12px;
+	}
 }
 
 
@@ -117,6 +128,10 @@ Samsung Galaxy
 	h4 { font-size:1.3333em; }	/* 16px */
 	h5 { font-size:1.1667em; }	/* 14px */
 	h6 { font-size:1em; }		/* 12px */
+
+	.author-text {
+		font-size: 12px;
+	}
 }
 
 
