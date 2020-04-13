@@ -22,3 +22,10 @@ img {
   height: 180px !important;
 
 }
+
+.anchor{
+  display: block;
+  height: 104px; /*same height as header*/
+  margin-top: -104px; /*same height as header*/
+  visibility: hidden;
+}
