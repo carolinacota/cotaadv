@@ -1516,6 +1516,12 @@
 				$menuzord_top_main_nav_clone.find('.showhide').trigger('click');
 			});
 
+			$( '#main-nav a' ).on("click", function(){
+				console.log("clicked");
+				//$('.menu').removeClass('open');
+				$menuzord_top_main_nav_clone.find('.showhide').trigger('click');
+			});
+
 
 		},
 

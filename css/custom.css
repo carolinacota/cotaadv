@@ -29,3 +29,8 @@ img {
   margin-top: -104px; /*same height as header*/
   visibility: hidden;
 }
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y !important;
+  touch-action: pan-y !important;
+}
