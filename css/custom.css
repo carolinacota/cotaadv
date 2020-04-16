@@ -34,3 +34,9 @@ img {
   -ms-touch-action: pan-y !important;
   touch-action: pan-y !important;
 }
+
+#contact-form {
+  height: 864px;
+  /* height: 824px; */
+  width: 100%;
+}
