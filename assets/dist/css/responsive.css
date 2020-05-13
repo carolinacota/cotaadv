@@ -109,7 +109,6 @@ Samsung Galaxy
 }
 
 
-
 /*
 Portrait orientation
 
@@ -131,6 +130,9 @@ Samsung Galaxy
 
 	.author-text {
 		font-size: 12px;
+	}
+	.text-small {
+		font-size: 0.9rem;
 	}
 }
 
