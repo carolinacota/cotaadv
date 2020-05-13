@@ -78,8 +78,16 @@ Apple iPod Touch (4th generation)
 	h6 { font-size:1em; }		/* 13px */
 
 	.author-text {
-		font-size: 12px;
+		font-size: 1rem;
 	}
+
+	.text-small {
+		font-size: 0.9rem !important;
+	}
+
+	.tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details .testimonial-footer .author-info .job-position {
+		font-size: 0.9rem;
+  }
 }
 
 /*
@@ -106,6 +114,14 @@ Samsung Galaxy
 	.author-text {
 		font-size: 12px;
 	}
+
+	.text-small {
+		font-size: 0.8rem !important;
+	}
+
+	.tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details .testimonial-footer .author-info .job-position {
+		font-size: 0.8rem;
+  }
 }
 
 
@@ -132,8 +148,12 @@ Samsung Galaxy
 		font-size: 12px;
 	}
 	.text-small {
-		font-size: 0.9rem;
+		font-size: 0.9rem !important;
 	}
+
+	.tm-sc-testimonials.testimonial-style7-current-theme .tm-testimonial .testimonial-author-details .testimonial-footer .author-info .job-position {
+		font-size: 0.8rem;
+  }
 }
 
 
